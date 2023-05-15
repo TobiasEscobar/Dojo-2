@@ -1,6 +1,5 @@
 # Dojo-2 
 (Primer entrega)
-![Tinkercad](./img/ArduinoTinkercad.jpg)
 
 ## Integrantes 
 - Tobías Fabricio Escobar
@@ -16,6 +15,7 @@ El sistema deberá arrancar apagado, luego de presionar el botón empezará y ha
 ## Función principal
 void loop()
 {
+
   int encendido = digitalRead(BOTON);
   Serial.println("encendido");
 
