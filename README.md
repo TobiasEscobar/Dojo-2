@@ -21,21 +21,21 @@ void loop()
 
 //Si el boton es presionado, se cumple la condicion y se ejecuta su codigo
 
-  if(encendido == 0)
-  
-  {
-  
-  Serial.println("Llego a constitucion");   			
-  prenderDisplay(1, 1, 1, 1, 0, 0, 1, LED_ROJO, 1000);
-    
-  Serial.println("Llego a San Juan");
-  prenderDisplay(1, 1, 0, 1, 1, 0, 1, LED_VERDE, 1000);
-    
-  Serial.println("Llego a Independencia");
-  prenderDisplay(0, 1, 1, 0, 0, 0, 0, LED_AZUL, 1000);
-    
-  Serial.println("Llego a Moron");
-  prenderDisplay(1, 1, 1, 1, 1, 1, 0, LED_AMARILLO, 1000);
+    if(encendido == 0)
+
+    {
+
+    Serial.println("Llego a constitucion");   			
+    prenderDisplay(1, 1, 1, 1, 0, 0, 1, LED_ROJO, 1000);
+
+    Serial.println("Llego a San Juan");
+    prenderDisplay(1, 1, 0, 1, 1, 0, 1, LED_VERDE, 1000);
+
+    Serial.println("Llego a Independencia");
+    prenderDisplay(0, 1, 1, 0, 0, 0, 0, LED_AZUL, 1000);
+
+    Serial.println("Llego a Moron");
+    prenderDisplay(1, 1, 1, 1, 1, 1, 0, LED_AMARILLO, 1000);
   
   }
 
