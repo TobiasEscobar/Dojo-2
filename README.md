@@ -34,6 +34,7 @@ void loop()
   Serial.println("Llego a Moron");
   prenderDisplay(1, 1, 1, 1, 1, 1, 0, LED_AMARILLO, 1000);
   }
+
 }
 
 ## :robot: Link al proyecto
